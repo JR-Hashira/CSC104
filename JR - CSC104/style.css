@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+  
+    
+}
+
+h1 {
+font-size: xxx-large;
+font-stretch: semi-condensed;
+text-align: center;
+}
+
+h2 {
+    font-size: xlarge;
+}
+
+p {
+text-decoration: cornflowerblue;
+color: cornflowerblue;
+border: black;
+}
