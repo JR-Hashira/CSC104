@@ -1,21 +1,26 @@
-body{
+/*This helps with my background color*/
+body { 
     background-color: bisque;
-  
-    
 }
-
+/*This style will effect my h1*/
 h1 {
-font-size: xxx-large;
+font-size: xx-large;
 font-stretch: semi-condensed;
 text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: cornflowerblue;
+
 }
 
 h2 {
-    font-size: xlarge;
+    font-size: x-large;
 }
+
 
 p {
 text-decoration: cornflowerblue;
 color: cornflowerblue;
 border: black;
+font-size: larger;
+text-align:center;
 }
