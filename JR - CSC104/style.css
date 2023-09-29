@@ -1,26 +1,41 @@
 /*This helps with my background color*/
 body { 
     background-color: bisque;
+    background-image:url("Flowey.png");
+    /*Helps me soften the backgrounds and merge them with my color*/
+    background-blend-mode:overlay;
+    background-position-x: left;
+    background-size: initial;
+    /*My h2 color*/
+    color:chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*This style will effect my h1*/
 h1 {
 font-size: xx-large;
 font-stretch: semi-condensed;
 text-align: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-shadow: 1px 2px 2px black;
 color: cornflowerblue;
 
-}
 
+
+}
+/*The controls my subheader*/
 h2 {
     font-size: x-large;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+    
 }
 
-
+/*This manages my paragraphs(All text below the flower)*/
 p {
 text-decoration: cornflowerblue;
 color: cornflowerblue;
 border: black;
+text-shadow: 1px 2px 2px black;
 font-size: larger;
 text-align:center;
+border-style:unset;
 }
