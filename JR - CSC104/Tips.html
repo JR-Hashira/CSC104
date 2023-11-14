@@ -1,0 +1,105 @@
+<!--Tells the that webpage is HTML5-->
+<!DOCTYPE html>
+<!-- Requires htm tag; setting the language to english-->
+<html lang="en">
+    <!--This is the primary brower and search engines-->
+    <head>
+        <!-- This alerts the brower that almost any character in any langage can appear-->
+        <meta charset="UTF-8">
+        <!---->
+        <meta name= "veiwport" content="width = device - width, inital- scale = 1.0">
+        <!--The biggest text and the first thing the viewer will see--> 
+        <title>W2 Example</title>
+        <!-- Link to my CSS style page-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Tips.css">
+        <!---->
+        </head>
+        <!--The main text-->
+        <body>
+                <!--My logo-->
+    <img src="">
+    
+<!-- Side navigation -->
+<div class="sidenav">
+    <!--My logo-->
+    <center>
+    <img src="https://openclipart.org/image/2400px/svg_to_png/74/PeterM-Flower.png" width="80px" height="100px">
+    </center>
+    <!--The refences to get my links to connect to all of my-->
+    <a href="Aniwatch.html">Home</a>
+    <a href="Tips.html">Helpful Tips</a>
+    <a href="SS.html">Song Suggestions</a>
+    <a href="Memes.html">Memes</a>
+  </div>
+  
+  <!-- Page content -->
+  <div class="main">
+          
+            <!--Header One-->
+
+            <h1>I understand that people will always have bad days</h1>
+
+            <!--Header Two-->
+            <h2>Here are some tips from people who experience silimar emotions as you</h2>
+
+        <center>
+                
+                  <button class="accordion">Tips about Stress</button>
+                    <div class="panel">
+                        <p>Lorem ipsum...</p>
+                            </div>
+
+                    <button class="accordion">Tips about Nervousness</button>
+                        <div class="panel">
+                            <p>Lorem ipsum...</p>
+                                </div>
+
+                    <button class="accordion">Tips about Someone Feeling Scared</button>
+                        <div class="panel">
+                            <p>Lorem ipsum...</p>
+                                </div>
+                    
+                    <button class="accordion">Tips about Depression</button>
+                        <div class="panel">
+                            <p>Words</p>
+                        </div>
+                </center>
+                <!--This helps me dropdown and contain my text-->
+                <!--The script helps the panels have functions in order to display further text-->
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+                    
+                    for (i = 0; i < acc.length; i++) {
+                      acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                          panel.style.display = "none";
+                        } else {
+                          panel.style.display = "block";
+                        }
+                      });
+                    }
+                    </script>
+                    
+                        
+                    <!--My so called "footer"-->
+             <p>
+                 <strong>
+                     Here we're displaying affirmations and calm acts
+                 </strong>
+            
+             </p>
+             <p>
+                 <b>
+                 All these tips came from the students at University of Advancing Technology
+                    </b>
+                </p>
+
+
+            <!--closing body tag-->
+        </div>
+            </body>
+</html>
