@@ -51,15 +51,24 @@ border-style:unset;
 
 /* The sidebar menu */
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 170px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+  /* The height of sidebar*/
+    height: 100%;
+    /* Set the width of the sidebar */
+    width: 170px; 
+    /* Sidebar stays in place on scroll) */
+    position: fixed; 
+     /* Stay on top */
+    z-index: 1; 
+    /* Stay at the top */
+    top: 0; 
+    /* To have my text light up after hovering*/
     cursor: pointer; /* To have my text light up after hovering*/
+    /*ONly touch the left side of the screen*/
     left: 0;
-    background-color: lightgrey; /* Background color of the sidebar */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    /* Background color of the sidebar */
+    background-color: lightgrey;
+    /* Disable horizontal scroll */
+    overflow-x: hidden; 
     padding-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
