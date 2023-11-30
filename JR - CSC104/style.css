@@ -98,3 +98,7 @@ border-style:unset;
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+  .center{
+    text-align: center;
+  }
