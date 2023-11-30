@@ -18,15 +18,14 @@
         </head>
         <!--The main text-->
         <body>
-                <!--My logo-->
-    <img src="">
+               
     
 <!-- Side navigation -->
 <div class="sidenav">
   <!--My logo-->
-  <center>
-  <img src="https://openclipart.org/image/2400px/svg_to_png/74/PeterM-Flower.png" width="80px" height="100px">
-  </center>
+  <div class = "center">
+    <img src="https://openclipart.org/image/2400px/svg_to_png/74/PeterM-Flower.png" width="80" height="100" alt="Orange Logo">
+    </div>
   <!--The refences to get my links to connect to all of my-->
   <a href="Aniwatch.html">Home</a>
   <a href="Tips.html">Helpful Tips</a>
@@ -40,11 +39,11 @@
           
             <!--Header One-->
 
-            <h1></h1>
+            <h1>dot</h1>
 
             <!--Header Two-->
             <h2>Here are some tips from people who experience silimar emotions as you</h2>
-          <center>
+          <div class= "center">
           <!-- Container to hold my first column-->
           <!-- Buttons to choose list or grid view -->
 <button onclick="listView()"><i class="fa fa-bars"></i> List</button>
@@ -53,13 +52,22 @@
             <div class="row">
               <div class="column" style="background-color:#aaa;">
                 <h2>Energizing Songs</h2>
-                <p>Some text..</p>
+                <p>Happy - Pharrell Williams<br>
+                  Buy U a Drank - T-Pain <br>
+                  Rawkfist - Thousand Foot Krutch<br>
+                  Blow Me (One Last Kiss) - Pink<br>
+                </p>
               </div>
 
               <!--Container to hold my 2nd column-->
               <div class="column" style="background-color:#bbb;">
                 <h2>Music for any occasion</h2>
-                <p>Some text..</p>
+                <p>My Light Unseen - Impending Doom<br>
+                  Do for Love - 2PAC<br>
+                  Tired All Vibes - Sugar Candy Mountain<br>
+                  POV - Ariana Grande<br>
+                  Symphony - Clean Bandit<br>
+                </p>
               </div>
             </div>
             <!--Container to hold my 3rd column-->
@@ -67,44 +75,56 @@
               <!--Inline style for box-->
               <div class="column" style="background-color:#ccc;">
                 <h2>Calming Songs</h2>
-                <p>Some text..</p>
+                <p>Good Days - SZA<br>
+                  Am I Dreaming - A$AP Rocky, Metro Boomin, and Roisee<br>
+                  Means to an End - Demon Hunters<br>
+                  Summer of Our Discontent - Sugar Candy Mountain<br>
+                  Surrender - Natalie Taylor<br>
+                </p>
+
               </div>
-              <!--Container to hold my 2nd column-->
+              <!--Container to hold my 4th column-->
               <div class="column" style="background-color:#ddd;">
                 <h2>Music to Unwind to</h2>
-                <p>Some text..</p>
+                <p>Waterfalls - TLC <br>
+                  666 - Sugar Candy Mountains<br>
+                  Feathers - Sabrina Carpenter<br>
+                  The Lazy Song - Bruno Mars<br>
+                  Feathers - Nujabes<br>
+                  Summer Nights - Siamés<br>
+                </p>
               </div>
               <p>
                 <b>
                   Enjoy a song or two, might even add one to a playlist
                 </b>
               </p>
-            </center>
+            </div>
+            </div>
             </div>
                
+            <script>
+              // Get the elements with class="column"
+              var elements = document.getElementsByClassName("column");
+              
+              // Declare a loop variable
+              var i;
+              
+              // List View
+              function listView() {
+                for (i = 0; i < elements.length; i++) {
+                  elements[i].style.width = "100%";
+                }
+              }
+              
+              // Grid View
+              function gridView() {
+                for (i = 0; i < elements.length; i++) {
+                  elements[i].style.width = "25%";
+                }
+              }
+              </script>
             </body>
 
-         <script>
-              /*Java sprict to transform my veiw back and form between grid and list*/
-            // Get the elements with class="column"
-            var elements = document.getElementsByClassName("column");
-            
-            // Declare a loop variable
-            var i;
-            
-            // List View
-            function listView() {
-              for (i = 0; i < elements.length; i++) {
-                elements[i].style.width = "100%";
-              }
-            }
-            
-            // Grid View
-            function gridView() {
-              for (i = 0; i < elements.length; i++) {
-                elements[i].style.width = "50%";
-              }
-            }
-         </script>
-                 
+           
 </html>
