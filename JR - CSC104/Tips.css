@@ -19,8 +19,10 @@
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
-    padding: 0 18px;
-    background-color: inherit;
+    padding: 0 40px;
+    background-color: whitesmoke;
     display: none;
     overflow: hidden;
+    color: black;
+    border-radius: 32px;
   }
